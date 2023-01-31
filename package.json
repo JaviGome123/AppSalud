@@ -1,0 +1,22 @@
+{
+  "name": "appsalud2",
+  "version": "1.0.0",
+  "description": "Ejemplo automatizacion de pruebas software",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test/unitarias test/integracion"
+  },
+  "keywords": [
+    "javascript",
+    "mocha",
+    "chai",
+    "pruebas",
+    "appSalud"
+  ],
+  "author": "Javier Gomez",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
